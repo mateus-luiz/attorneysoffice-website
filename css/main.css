@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root{
+    --primary-font: 'Montserrat', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header.main{
+    display: inline-flex;
+    padding: 15px;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #fff;
+}
+
+header.main a.logo{
+    position: absolute;
+    left: 0;
+    margin: 30px;
+}
+
+header.main a.logo img{
+    width: 150px;
+}
+
+header.main a.contact{
+    display: inline-flex;
+    cursor: pointer;
+    position: absolute;
+    align-items: center;
+    right: 0;
+    margin: 30px;
+    padding: 5px;
+    border: 2px solid #f48c06;
+    background-color: #e6e6e6;
+    border-radius: 6px;
+    text-decoration: none;
+    color: black;
+}
+
+header.main a.contact::before{
+    content: url("../images/whatsapp-icon.svg");
+    width: 15px;
+    height: 15px;
+    margin: 0 5px;
+
+}
+
+header.main a.contact:hover{
+    background-color: #f8f9fa;
+    border-color: #faa307;
+}
+
+header.main a.contact:active{
+    background-color: #faa307;
+}
+
+header.main nav.menu a.item{
+    cursor: pointer;
+    margin: 0 10px;
+    padding: 5px;
+    border-bottom: 2px solid #f48c06;
+    border-radius: 8px;
+    text-decoration: none;
+    color: black;
+}
+
+header.main nav.menu a.item:hover{
+    border: 2px solid #f48c06;
+}
+
+header.main nav.menu a.item:active{
+    border: 2px solid #dc2f02;
+}
+
+header.main nav.menu a.active{
+    border: 2px solid #dc2f02;
+}
+
+footer.main{
+    display: grid;
+    padding: 30px;
+    width: 100%;
+    grid-template-columns: 2fr 2fr 1fr;
+    font-family: var(--primary-font);
+    justify-content: start;
+    align-items: center;
+    color: #6c757d;
+    font-weight: 650;
+}
+
+section.contact{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+section.contact p{
+    margin: 5px;
+}
+
+section.social{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    padding: 5px;
+    justify-content: start;
+    align-items: center;
+}
+
+section.social a{
+    margin: 5px;
+}
+
+section.social a:hover{
+    cursor: pointer;
+    color: #495057;
+}
+
+footer section.links div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2px;
+    place-items: start;
+}
+
+footer section.links a{
+    color: #6c757d;
+    text-decoration: none;
+    margin: 5px;
+}
+
+footer section.links a:hover{
+    color: #495057;
+    border-bottom: 1px solid #f48c06;
+}
