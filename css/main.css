@@ -19,7 +19,6 @@ header.main{
     font-family: var(--primary-font);
     font-size: 16px;
     font-weight: 600;
-    background-color: #fff;
 }
 
 header.main a.logo{
@@ -40,7 +39,7 @@ header.main a.contact{
     right: 0;
     margin: 30px;
     padding: 5px;
-    border: 2px solid #f48c06;
+    border: 2px solid #242F9B;
     background-color: #e6e6e6;
     border-radius: 6px;
     text-decoration: none;
@@ -56,34 +55,34 @@ header.main a.contact::before{
 }
 
 header.main a.contact:hover{
-    background-color: #f8f9fa;
-    border-color: #faa307;
+    background-color: #DBDFFD;
+    border-color: #646FD4;
 }
 
 header.main a.contact:active{
-    background-color: #faa307;
+    background-color: #9BA3EB;
 }
 
 header.main nav.menu a.item{
     cursor: pointer;
     margin: 0 10px;
     padding: 5px;
-    border-bottom: 2px solid #f48c06;
+    border-bottom: 2px solid #242F9B;
     border-radius: 8px;
     text-decoration: none;
     color: black;
 }
 
 header.main nav.menu a.item:hover{
-    border: 2px solid #f48c06;
+    border: 2px solid #646FD4;
 }
 
 header.main nav.menu a.item:active{
-    border: 2px solid #dc2f02;
+    border: 2px solid #9BA3EB;
 }
 
 header.main nav.menu a.active{
-    border: 2px solid #dc2f02;
+    border: 2px solid #9BA3EB;
 }
 
 footer.main{
@@ -139,5 +138,5 @@ footer section.links a{
 
 footer section.links a:hover{
     color: #495057;
-    border-bottom: 1px solid #f48c06;
+    border-bottom: 1px solid #9BA3EB;
 }

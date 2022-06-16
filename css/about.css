@@ -1,0 +1,31 @@
+main.about-section{
+    padding: 50px;
+    width: 100%;
+    font-size: 18px;
+    text-align: justify;
+    font-family: var(--primary-font);
+    background-color: #e6e6e6;
+}
+
+main.about-section p {
+    margin: 10px;
+}
+
+main.about-section article{
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 2px 2px 12px #c9c9c9;
+}
+
+main.about-section article > div {
+    display: flex;
+}
+
+main.about-section img{
+    width: 600px;
+    height: 300px;
+    margin: 5px;
+    border-radius: 2px;
+    border: 1px solid #000;
+}
