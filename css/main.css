@@ -10,6 +10,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #e4e4e4;
+}
+
 header.main{
     display: inline-flex;
     padding: 15px;
@@ -43,7 +47,7 @@ header.main a.contact{
     background-color: #e6e6e6;
     border-radius: 6px;
     text-decoration: none;
-    color: black;
+    color: #6c757d;
 }
 
 header.main a.contact::before{
@@ -56,7 +60,8 @@ header.main a.contact::before{
 
 header.main a.contact:hover{
     background-color: #DBDFFD;
-    border-color: #646FD4;
+    border-color: #242F9B;
+    color: #727272;
 }
 
 header.main a.contact:active{
@@ -67,22 +72,16 @@ header.main nav.menu a.item{
     cursor: pointer;
     margin: 0 10px;
     padding: 5px;
-    border-bottom: 2px solid #242F9B;
-    border-radius: 8px;
     text-decoration: none;
-    color: black;
+    color: #6c757d;
 }
 
 header.main nav.menu a.item:hover{
-    border: 2px solid #646FD4;
-}
-
-header.main nav.menu a.item:active{
-    border: 2px solid #9BA3EB;
+    color: #727272;
 }
 
 header.main nav.menu a.active{
-    border: 2px solid #9BA3EB;
+    border-bottom: 1px dashed #242F9B;
 }
 
 footer.main{
